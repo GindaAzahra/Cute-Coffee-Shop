@@ -4,10 +4,10 @@ Website 1 halaman bertema Cute Coffee Shop lucu dan manis ☕💖 Dibuat menggun
 ## 📸 Tampilan Website
 
 ### Tampilan Awal
-![Halaman Utama](s1.png)
+![Halaman Utama](s1.JPG)
 
 ### Daftar Produk
-![Produk kopi](s2.png)
+![Produk kopi](s2.JPG)
 
 ### Form Kontak
-![Form Kontak](s3.png)
+![Form Kontak](s3.JPG)
