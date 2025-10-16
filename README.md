@@ -1,5 +1,24 @@
-# Cute-Coffee-Shop
-Website 1 halaman bertema Cute Coffee Shop lucu dan manis ☕💖 Dibuat menggunakan HTML, CSS, dan Bootstrap untuk tugas Pemrograman Web 1.
+# ☕ Cute-Coffee-Shop
+Website sederhana satu halaman bertema **coffee shop lucu dan manis** berwarna pink pastel.  
+Tugas implementasi layout CSS & Bootstrap untuk **Pemrograman Web 1**.
+
+## 📋 Deskripsi singkat
+Cute Coffee Shop hadir untuk memberi suasana ngopi yang hangat dan ceria bagi semua orang.  
+Halaman ini terdiri dari: navbar, hero section, daftar menu kopi, tentang kami, form kontak, dan footer.
+
+## 🧱 Struktur Halaman  
+- Navbar — menu navigasi ke Home, Menu, Tentang Kami, Kontak  
+- Hero Section — gambar latar + teks sambutan  
+- Menu — kartu minuman kopi  
+- Tentang Kami — deskripsi singkat  
+- Kontak — form untuk kirim pesan  
+- Footer — hak cipta & pembuat
+
+## 🛠️ Teknologi yang Digunakan  
+- HTML5  
+- CSS3 + Bootstrap 4  
+- Font dan styling custom
+- Gambar dari Pinterest
 
 ## 📸 Tampilan Website
 
@@ -12,5 +31,5 @@ Website 1 halaman bertema Cute Coffee Shop lucu dan manis ☕💖 Dibuat menggun
 ### Form Kontak
 ![Form Kontak](s3.JPG)
 
-### Link Website
+### 🔗 Link Website
 👉 [Klik di sini untuk melihat hasilnya](https://gindaazahra.github.io/Cute-Coffee-Shop/)
