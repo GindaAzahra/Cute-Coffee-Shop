@@ -1,0 +1,111 @@
+body {
+  background-color: #ffe6f2;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #ff99cc;
+}
+
+.navbar-brand, .nav-link {
+  color: white !important;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: #ffe6f2 !important;
+}
+
+/* Hero Section */
+.hero {
+  background-image: url('img/hero.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.hero-text {
+  background-color: rgba(255, 192, 203, 0.75);
+  padding: 25px;
+  border-radius: 20px;
+}
+
+.btn-pink {
+  background-color: #ff66b2;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  transition: 0.3s;
+}
+
+.btn-pink:hover {
+  background-color: #ff3399;
+}
+
+/* Menu Section */
+h2 {
+  color: #cc6699;
+  font-weight: bold;
+}
+
+.card {
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* About Section */
+.about-section {
+  background-color: #ffeaf5;
+  padding: 50px 0;
+  margin-top: 50px;
+  border-radius: 20px;
+}
+
+.about-section p {
+  color: #444;
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+/* Contact Section */
+.contact-section {
+  padding: 50px 0;
+}
+
+.contact-section label {
+  color: #cc6699;
+  font-weight: bold;
+}
+
+.form-control {
+  border-radius: 10px;
+  border: 2px solid #ffb3d9;
+}
+
+.btn-block {
+  font-size: 16px;
+}
+
+/* Footer */
+footer {
+  background-color: #ff99cc;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
