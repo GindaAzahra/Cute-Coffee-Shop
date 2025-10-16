@@ -16,7 +16,7 @@ Halaman ini terdiri dari: navbar, hero section, daftar menu kopi, tentang kami, 
 
 ## 🛠️ Teknologi yang Digunakan  
 - HTML5  
-- CSS3 + Bootstrap 4  
+- CSS3 (Custom & Bootstrap 5.3) 
 - Font dan styling custom
 - Gambar dari Pinterest
 
