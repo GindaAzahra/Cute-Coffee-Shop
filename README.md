@@ -13,4 +13,4 @@ Website 1 halaman bertema Cute Coffee Shop lucu dan manis ☕💖 Dibuat menggun
 ![Form Kontak](s3.JPG)
 
 ### Link Website
-https://gindaazahra.github.io/Cute-Coffee-Shop/
+👉 [Klik di sini untuk melihat hasilnya](https://gindaazahra.github.io/Cute-Coffee-Shop/)
