@@ -24,6 +24,8 @@ Halaman ini terdiri dari: navbar, hero section, daftar menu kopi, tentang kami, 
 
 ### Tampilan Awal
 ![Halaman Utama](s1.JPG)
+![Halaman Utama](s1a.JPG)
+![Halaman Utama](s1b.JPG)
 
 ### Daftar Produk
 ![Produk kopi](s2.JPG)
