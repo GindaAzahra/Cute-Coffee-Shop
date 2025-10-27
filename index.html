@@ -3,29 +3,29 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Cute Coffee Shop</title>
+  <title>Ginda Azahra - Cute Coffee Shop</title>
   <link rel="stylesheet" href="bootstrap-5.3.8-dist/bootstrap-5.3.8-dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
   <!-- Navbar -->
-<nav class="navbar navbar-expand-lg">
-  <div class="container">
-    <a class="navbar-brand" href="#">☕ Cute Coffee Shop</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-      <span class="navbar-toggler-icon">🍩</span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
-        <li class="nav-item"><a class="nav-link" href="#about">Tentang Kami</a></li>
-        <li class="nav-item"><a class="nav-link" href="#contact">Kontak</a></li>
-      </ul>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="#">☕ Cute Coffee Shop</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon">🍩</span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">Tentang Kami</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Kontak</a></li>
+        </ul>
+      </div>
     </div>
-  </div>
-</nav>
+  </nav>
 
   <!-- Hero Section -->
   <section id="home" class="hero">
@@ -33,12 +33,16 @@
       <h1>Welcome to Cute Coffee Shop!</h1>
       <p>✨ Tempat nongkrong lucu dan manis di kota ✨</p>
       <a href="#menu" class="btn btn-pink">Lihat Menu</a>
+      <br><br>
+      <!-- Tombol interaktif JavaScript -->
+      <button onclick="showMessage()" class="btn btn-light">Tampilkan Waktu Ngopi ☕</button>
+      <p id="date"></p>
     </div>
   </section>
 
   <!-- Menu Section -->
   <section id="menu" class="container mt-5 text-center">
-    <h2 class="mb-4"> 📋 MENU FAVORIT 📋</h2>
+    <h2 class="mb-4">📋 MENU FAVORIT 📋</h2>
     <div class="row">
       <div class="col-md-4 mb-4">
         <div class="card">
@@ -75,8 +79,9 @@
     <div class="container text-center">
       <h2>✨ Tentang Kami ✨</h2>
       <p>
-        Cute Coffee Shop hadir untuk memberikan pengalaman ngopi yang berbeda — lucu, nyaman, dan penuh cinta. 
-        Kami percaya setiap cangkir kopi membawa kebahagiaan kecil untuk hari-harimu 💕
+        Cute Coffee Shop hadir untuk memberikan pengalaman ngopi yang berbeda — lucu, 
+        nyaman, dan penuh cinta. Kami percaya setiap cangkir kopi membawa 
+        kebahagiaan kecil untuk hari-harimu 💕
       </p>
       <p>
         Semua biji kopi kami dipilih secara khusus dan diseduh dengan cinta,
@@ -113,10 +118,20 @@
 
   <!-- Footer -->
   <footer>
-    <p>© 2025 Cute Coffee Shop | Designed by Ginda Azahra</p>
+    <p>© 2025 Cute Coffee Shop | Designed by <b>Ginda Azahra</b></p>
   </footer>
 
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- JavaScript interaktif -->
+  <script>
+    function showMessage() {
+      const now = new Date();
+      const waktu = now.toLocaleString();
+      document.getElementById("date").innerHTML = "Waktu ngopi kamu sekarang: " + waktu;
+      alert("Hai! Jangan lupa senyum dan nikmati waktu ngopi kamu ☕💕");
+    }
+  </script>
 </body>
 </html>
