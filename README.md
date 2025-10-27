@@ -38,5 +38,3 @@ Tombol “**Tampilkan Waktu Ngopi ☕**” di halaman utama akan:
 ### Form Kontak
 ![Form Kontak](s3.JPG)
 
-### 🔗 Link Website
-👉 [Klik di sini untuk membuka Cute Coffee Shop](https://gindaazahra.github.io/Cute-Coffee-Shop/?v=5)
