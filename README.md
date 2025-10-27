@@ -34,4 +34,4 @@ Halaman ini terdiri dari: navbar, hero section, daftar menu kopi, tentang kami, 
 ![Form Kontak](s3.JPG)
 
 ### 🔗 Link Website
-👉 [Klik di sini untuk melihat hasilnya](file:///D:/Documents/smt%205/penmob%202/tugas-1-pemrograman-web-1/index.html)
+👉 Klik di sini untuk membuka: [Cute Coffee Shop](https://gindaazahra.github.io/Cute-Coffee-Shop/)
